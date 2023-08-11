@@ -1,43 +1,99 @@
-# React Native Mobile App - Weather Forecast
+# Weather Forecast App - Your Dynamic Weather Companion
 
-## Task Description
+Welcome , a feature-rich weather application built using React Native and Expo. This application offers a seamless and visually engaging experience, providing users with real-time weather information, dynamic UI elements, and detailed forecasts. Whether you're planning your day or staying prepared for the week ahead, this Weather App has you covered.
 
-We would like you to demonstrate your skills and knowledge by building a simple weather forecast mobile app. The app will allow users to enter a location (city or country name) and display the current weather information for that location.
+## Key Features
 
-## Requirements
+### Location-Based Weather
 
-1. Use React Native to build the mobile app.
-2. Implement a search input where users can enter the location.
-3. Utilize a weather API (e.g., OpenWeatherMap, WeatherAPI) to fetch weather data for the entered location.
-4. Display the current weather information, including temperature, weather condition (e.g., sunny, rainy, cloudy), and any other relevant data.
-5. Implement basic error handling for invalid locations or API errors.
-6. Make the app visually appealing with proper styling.
-7. Provide a clear and user-friendly interface.
+Upon launching Weatherly, users are prompted to grant location access. When permission is granted, the app retrieves and displays precise weather data based on the user's current location. In the event that location access is denied, the app gracefully defaults to a predefined location's weather information.
 
-## Bonus (Optional)
+### Search Functionality
 
-1. Allow users to view the weather forecast for the next 3-5 days.
-2. Add unit tests to ensure the functionality of critical components.
-3. Implement geolocation to automatically fetch weather data based on the user's current location.
-4. Add animation or transitions to enhance the user experience.
+Weather Application empowers users to explore weather data from around the world. Utilizing the integrated search bar, users can enter any location of their choice to instantly access the relevant weather details. The app then presents a comprehensive snapshot of the weather, complete with temperature, city name, weather type, and more.
 
-## Submission Guidelines
+### Dynamic User Interface
 
-1. Fork this repository and create a new branch for your work.
-2. Commit your code regularly, with clear and concise commit messages.
-3. Ensure your code is well-structured, readable, and follows best practices.
-4. Update the README.md file with clear instructions on how to run your app.
-5. If applicable, include any additional notes or explanations in the README.md.
-6. Once you have completed the task, create a pull request to the original repository.
+Experience weather like never before with Weather Application's dynamic user interface. As the weather conditions change, so does the app's appearance. Background images, animations, and icons seamlessly adapt to the current weather, creating an immersive and engaging visual experience.
 
-## Evaluation Criteria
+### 7-Day Weather Outlook
 
-1. Code quality and organization: How well the code is structured and follows best practices.
-2. Functionality: Does the app meet all the requirements and work as expected?
-3. User Interface: Is the app visually appealing and user-friendly?
-4. Error handling: How well errors and edge cases are handled.
-5. Bonus points: If you implemented any of the bonus tasks, they will be considered for extra credit.
+Stay informed and prepared with Weather Application's comprehensive 7-day weather outlook. Users can quickly access a week's worth of weather predictions, allowing for effective planning and decision-making.
 
-**Please complete the task within a reasonable time frame (a week) and feel free to ask any questions if needed. Good luck!**
+### 8-Unit Testing
 
-If you have any question please reach out at akhtar@intelliquarck.com
+Weatherly incorporates unit tests to ensure the reliability and accuracy of its components. The tests are written using a combination of testing libraries and tools to provide comprehensive coverage and robust validation. I have done unit testing for DaywiseForecastView.js, DesiredForecastView.js and WeeklyForecastView.js.
+
+#### Running Unit Tests
+
+To run the unit tests for Weatherly, follow these steps:
+
+1. Ensure you have the [Expo CLI](https://docs.expo.dev/workflow/expo-cli/) installed on your machine.
+
+2. Clone the Weatherly repository to your local machine:
+
+   ```bash
+   git clone "https://github.com/shahzaibmalikk123/weather-forecast-assessment-task.git"
+
+   cd weatherly-app
+
+   npm install
+
+   expo test
+   ```
+
+### Hourly Weather Details
+
+This application provides users with an hour-by-hour breakdown of the day's weather forecast. Starting from the current time, the app offers insights into expected temperature fluctuations, weather types, and more.
+
+## How to Run the App
+
+To experience tis Weather Application on your device, follow these steps:
+
+### Prerequisites
+
+Make sure you have the following tools installed on your machine:
+
+- [Expo CLI](https://docs.expo.dev/workflow/expo-cli/) (Install globally)
+
+### Installation
+
+1. Clone the Weather Application's repository to your local machine:
+
+   ```bash
+   git clone "https://github.com/shahzaibmalikk123/weather-forecast-assessment-task.git"
+
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd weather-forecast-assessment-task
+
+   ```
+
+3. Install the necessary dependencies:
+
+   ```bash
+   npm install
+
+   ```
+
+4. Clone this application's repository to your local machine:
+
+   ```bash
+   expo start
+
+   ```
+
+5. Use the Expo Go app on your mobile device or an Android/iOS emulator to preview and interact with the weather application.
+
+## Additional Notes
+
+- **Background Images**: The app's background images, animations, and icons dynamically change to reflect the current weather conditions, enhancing the user experience.
+
+- **Location Permissions**: If location access is not granted, this application defaults to a predefined location for showcasing weather data.
+
+- **API Integration**: Weather data is fetched from a weather API, ensuring accurate and up-to-date information.
+
+For any inquiries contributions, please feel free to contact [shahzaibmalik3393@gmail.com](mailto:shahzaibmalik3393@gmail.com).
